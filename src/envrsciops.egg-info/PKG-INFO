@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: envrsciops
+Version: 0.1.0
+Summary: AI-augmented environmental data platform (ingest, validate, model, publish).
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: requests>=2.31.0
+Requires-Dist: python-dotenv>=1.0.1
+
+# EnvrSciOps
+EnvrSciOps is an AI‑augmented environmental data platform that ingests public environmental APIs on a schedule, stores them in a relational database, applies SQL transformations + validations, and publishes an analytics layer for dashboards—with an AI toolkit that accelerates documentation, SQL review, and pipeline debugging.

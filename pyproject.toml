@@ -1,0 +1,16 @@
+[project]
+name = "envrsciops"
+version = "0.1.0"
+description = "AI-augmented environmental data platform (ingest, validate, model, publish)."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "requests>=2.31.0",
+  "python-dotenv>=1.0.1",
+]
+
+[project.scripts]
+envrsciops = "envrsciops.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
